@@ -12,14 +12,14 @@ public class Addressuser {
         int com, ind;
         String name, phone, email;
 
-        name = "Иван";
-        phone = "83694895204";
-        email = "Ivan@mail.com";
+        name = "Максим";
+        phone = "89036478722";
+        email = "Max66@mail.com";
         Address adr = new Address(name, phone, email);
         adrBook.add(adr);
-        name = "Семен";
-        phone = "85893025485";
-        email = "Semen@mail.com";
+        name = "Олег";
+        phone = "89108876523";
+        email = "Oleg32@mail.com";
         adr = new Address(name, phone, email);
         adrBook.add(adr);
         name = "Алексей";
@@ -86,7 +86,7 @@ public class Addressuser {
         }
     }
     public static void list(){
-        System.out.println("Введите номер команды для ее выполнения: \n" +
+        System.out.println("Введите номер команды: \n" +
                 "1.Добавить запись\n" +
                 "2.Поиск записей\n" +
                 "3.Вывод всех записей\n" +
