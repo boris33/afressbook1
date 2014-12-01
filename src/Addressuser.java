@@ -22,6 +22,11 @@ public class Addressuser {
         email = "Semen@mail.com";
         adr = new Address(name, phone, email);
         adrBook.add(adr);
+        name = "Алексей";
+        phone = "89264678799";
+        email = "Alex21@mail.com";
+        adr = new Address(name, phone, email);
+        adrBook.add(adr);
 
         while (true) {
             com = sc.nextInt();
@@ -90,6 +95,6 @@ public class Addressuser {
                 "6.Вывести запись по индексу\n" +
                 "7.Вывести количество записей в книге\n" +
                 "8.Вывести меню пользователя\n" +
-                "6.Выход из программы\n");
+                "9.Выход из программы\n");
     }
 }
